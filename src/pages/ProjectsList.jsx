@@ -5,8 +5,6 @@ import CreateProject from '../components/CreateProject';
 import { projectsContext } from '../contexts/projects.context';
 import { authContext } from '../contexts/auth.context';
 
-let baseURL = 'http://localhost:5005/api/projects/';
-
 export default function ProjectsList() {
 
     const { projects, loading } = useContext(projectsContext);
